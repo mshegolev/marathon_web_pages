@@ -1,15 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
 body {
     font-family: 'Montserrat', sans-serif;
-    margin-right: 10%;
-    margin-left: 10%;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    font-style: normal;
+    margin-right: 123px;
+    margin-left: 57px;
+    margin-top: 64px;
+    margin-bottom: 63px;
     background: E5E5E5;
 }
 
 .title {
     font-size: 48px;
+    margin-top: 48px;
+    margin-bottom: 24px;
+    /* padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 80px;
+    padding-left: 80px; */
+    border: 3px solid red;
 }
 
 .birth-info {
@@ -21,13 +29,54 @@ body {
 }
 
 .section-title {
-    font-size: 18px;
+    font-size: 24px;
+    width: 230px;
+    height: 36px;
+    top: 313px;
+    left: 434px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 130%;
+    color: black;
+
 }
 
 .list {
     font-size: 14px;
+    line-height: 145%;
+    padding-left: 10px;
+
 }
 
 .position {
-    color: red;
+    color: #FF3131;
+    text-align: left
+}
+
+.aside {
+    width: 310px;
+    height: 656px;
+    left: 57px;
+    top: 64px;
+    background-color: #1A142D;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-right: 67px;
+}
+
+.photo {
+    width: 100%;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 467px;
+
+}
+
+.container {
+    display: flex;
 }
