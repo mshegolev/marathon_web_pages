@@ -76,4 +76,48 @@ body {
 
 .container {
     display: flex;
+    margin-bottom: 87px;
+}
+
+.socials {
+    position: absolute;
+    width: 84.77px;
+    height: 23px;
+    left: 170px;
+    top: 651px;
+}
+.socials-icon:hover {
+    position: relative;
+    bottom: 5px;
+
+}
+
+.gallery-item {
+    position: relative;
+    width: 206px;
+    margin-right: 29px;
+}
+.gallery-label {
+    display: none;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #1a142d;
+    color: white;
+    font-size: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.gallery-item:hover .gallery-label {
+    display: block;
+}
+
+.gallery {
+    display: flex;
 }
